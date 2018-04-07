@@ -99,22 +99,22 @@
 
 
 
-  <meta name="description" content="基础 ubuntu系统 运行内存6G,交换分区6G  步骤由于电脑性能实在有限，我选择的是在实体机(而非虚拟机)上使用devstack一键自动化安装openstack    使用如下命令更改系统的软件包源，加快软件下载速度     123$ sed -i &amp;apos;s/us.archive.ubuntu.com/cn.archive.ubuntu.com/g&amp;apos; /etc/apt/so">
+  <meta name="description" content="基础 ubuntu系统 运行内存6G,交换分区6G  步骤由于电脑性能实在有限，我选择的是在实体机(而非虚拟机)上使用devstack一键自动化安装openstack">
 <meta name="keywords" content="ubuntu,openstack">
 <meta property="og:type" content="article">
 <meta property="og:title" content="devstack一键部署openstack">
 <meta property="og:url" content="http://yoursite.com/2018/04/07/devstack一键部署openstack/index.html">
 <meta property="og:site_name" content="hx黄少侠">
-<meta property="og:description" content="基础 ubuntu系统 运行内存6G,交换分区6G  步骤由于电脑性能实在有限，我选择的是在实体机(而非虚拟机)上使用devstack一键自动化安装openstack    使用如下命令更改系统的软件包源，加快软件下载速度     123$ sed -i &amp;apos;s/us.archive.ubuntu.com/cn.archive.ubuntu.com/g&amp;apos; /etc/apt/so">
+<meta property="og:description" content="基础 ubuntu系统 运行内存6G,交换分区6G  步骤由于电脑性能实在有限，我选择的是在实体机(而非虚拟机)上使用devstack一键自动化安装openstack">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2018/04/07/devstack一键部署openstack/stack1.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/07/devstack一键部署openstack/stack3.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/07/devstack一键部署openstack/stack4.png">
 <meta property="og:image" content="http://yoursite.com/2018/04/07/devstack一键部署openstack/sys1.png">
-<meta property="og:updated_time" content="2018-04-07T16:39:22.850Z">
+<meta property="og:updated_time" content="2018-04-07T16:42:35.172Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="devstack一键部署openstack">
-<meta name="twitter:description" content="基础 ubuntu系统 运行内存6G,交换分区6G  步骤由于电脑性能实在有限，我选择的是在实体机(而非虚拟机)上使用devstack一键自动化安装openstack    使用如下命令更改系统的软件包源，加快软件下载速度     123$ sed -i &amp;apos;s/us.archive.ubuntu.com/cn.archive.ubuntu.com/g&amp;apos; /etc/apt/so">
+<meta name="twitter:description" content="基础 ubuntu系统 运行内存6G,交换分区6G  步骤由于电脑性能实在有限，我选择的是在实体机(而非虚拟机)上使用devstack一键自动化安装openstack">
 <meta name="twitter:image" content="http://yoursite.com/2018/04/07/devstack一键部署openstack/stack1.png">
 
 
@@ -392,12 +392,11 @@
       
 
       
-        <a id="more"></a>
-<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><ol>
+        <h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><ol>
 <li>ubuntu系统</li>
 <li>运行内存6G,交换分区6G</li>
 </ol>
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><p>由于电脑性能实在有限，我选择的是在实体机(而非虚拟机)上使用devstack一键自动化安装openstack  </p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><p>由于电脑性能实在有限，我选择的是在实体机(而非虚拟机)上使用devstack一键自动化安装openstack<br><a id="more"></a></p>
 <ol>
 <li><p>使用如下命令更改系统的软件包源，加快软件下载速度    </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ sed -i &apos;s/us.archive.ubuntu.com/cn.archive.ubuntu.com/g&apos; /etc/apt/sources.list</span><br><span class="line">$ sed -i &apos;s/security.ubuntu.com/cn.archive.ubuntu.com/g&apos; /etc/apt/sources.list</span><br><span class="line">$ sudo apt-get update</span><br></pre></td></tr></table></figure>
